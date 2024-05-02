@@ -1,0 +1,102 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+.cream-bg{
+	background-color: #FFFFF0;
+} 
+
+.beige-bg{
+	background-color: #E0D5C3;
+}
+
+
+.green-bg{
+	background-color: #395442;
+}
+
+
+#header {
+	background-image: url('images/candlesss.jpg')!important;
+	height: 450px;
+
+} /*header image*/
+
+.column {
+  float: left;
+  width: 45%;
+  padding: 15px;
+	text-align: center;
+}
+
+
+
+.carousel-item{
+	text-align: center;
+} /* for carousel*/
+
+.btn-light {
+	text-align: center !important;
+	font-family: Garamond, serif !important;
+	margin-top: 135px;
+} /* center the shop now button*/
+
+h1, h2, h4 {
+	font-family: Garamond, serif;
+	text-align: center;
+} /* font for all the headers*/
+
+h2 {
+	font-size: 30pt;
+}
+
+p {
+	text-align: center;
+	font-family: Tahoma, sans-serif;
+} /* font for "experience...." blurb */
+
+i {
+	font-family: Tahoma, sans-serif;
+	font-size: 11pt;
+} /* font for the candle info*/
+
+label {
+	font-family: Tahoma, sans-serif;
+}
+
+a {
+	font-family: Garamond, serif;
+	font-size: 17pt !important;
+} /* changed the font in the navigation */
+
+p.column {text-align: center;
+	
+}
+
+#topsellers{
+	margin-top: 25px;
+}
+
+.btn-primary{
+	background-color: #705F4C;
+} /* changed the submit buttom color */
+
+
+.zoom {
+  padding: 40px !important;
+  transition: transform .2s !important; /* Animation */
+  width: 287px !important;
+  height: 290px !important;
+  margin: 0 auto !important;
+} /* zooms in on the candle care graphics when you hover on them*/
+
+.zoom:hover {
+  transform: scale(1.5) !important; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+} /* zooms in on the candle care graphics when you hover on them*/
+
+
+.bi-instagram, .bi-tiktok, .bi-twitter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40px;
+  padding: 40px;
+  font-size: 27px;
+} /*centers social media links*/
